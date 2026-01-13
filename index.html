@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Coulston Mayett">
+    <meta name="description" content="###### ###">
+    <title>Home page</title>
+
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="images/person-circle-check.svg" alt="site logo" width="24" height="24">
+        <span>Coulston Mayett</span>
+        <button id="ham-btn" class="hamburger"></button>
+    </header>
+
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Final</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <h1>Home</h1>
+
+        <div class="aboutme">
+            <section>
+                <h2>About me</h2>
+                <p>I am Coulston Mayett, an Applied Technology student at BYU Pathway Worldwide, where I am
+                    developing practical skills in technology and problem-solving. I graduated from KCA University
+                    in 2020, which provided me with a strong academic foundation and a commitment to continuous
+                    learning.
+                    I have a strong interest in reading, spending time in nature, and cycling, activities that
+                    help me maintain balance and creativity. I am motivated by challenges and approach them with
+                    determination, adaptability, and a willingness to learn new skills in order to grow both personally
+                    and professionally.
+                </p>
+            </section>
+
+            <section>
+                <h2>Student photo</h2>
+                <img src="images/Coulston.jpg" alt="Coulston's Image">
+            </section>
+        </div>
+
+        <section id="certificate">
+            <h2>Web Certificate Courses</h2>
+
+            <div class="filters">
+                <button id="all">All</button>
+                <button id="cse">CSE</button>
+                <button id="wdd">WDD</button>
+            </div>
+
+            <div id="course-list"></div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/coulston-mayett-404380157/" target="_blank"><img
+                    src="images/linkedin.svg" alt="LinkedIn" width="16" height="16"></a>
+            <a href="https://github.com/mayettcoulston" target="_blank"><img src="images/github.svg" alt="github"
+                    width="16" height="16"></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><img src="images/whatsapp.svg" alt="whatsApp" width="16"
+                    height="16"></a>
+            <a href="https://www.facebook.com/coulston.mayett.3" target="_blank"><img src="images/facebook (1).svg"
+                    alt="facebook" width="16" height="16"></a>
+        </div>
+        <p>&copy; <span id="currentyear"></span> |Coulston Mayett | Nairobi, Kenya</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/date.js"></script>
+    <script src="scripts/navigation.js"></script>
+    <script src="scripts/course.js"></script>
+
+</body>
+
+</html>
