@@ -1,0 +1,25 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #F4F6F8;
+    color: #333333;
+    margin: 0;
+    padding: 2rem;
+}
+
+h1, h2, h3 {
+    font-family: "Merriweather", serif;
+    color: #0A1F44;
+}
+
+strong{
+    color: #C9A227;
+}
+
+#site-plan {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #F4F6F8;
+    border-radius: 5px;
+    border: 2px solid #0A1F44;
+}
