@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Nairobi Fresh Foods Ltd",
+        "address": "Kimathi Street, Nairobi, Kenya",
+        "phone": "+254 712 345 678",
+        "website": "https://www.nairobifreshfoods.co.ke",
+        "image": "nairobifreshfood.jpg",
+        "membershipLevel": 3,
+        "description": "Supplier of organic fruits and vegetables to hotels and supermarkets.",
+        "founded": 2012
+    },
+    {
+        "name": "Savannah Tech Solutions",
+        "address": "Westlands, Nairobi, Kenya",
+        "phone": "+254 701 234 567",
+        "website": "https://www.savannahtech.co.ke",
+        "image": "savanatech.jpg",
+        "membershipLevel": 2,
+        "description": "Software development and IT consulting firm.",
+        "founded": 2018
+    },
+    {
+        "name": "GreenLeaf Landscaping",
+        "address": "Ngong Road, Nairobi, Kenya",
+        "phone": "+254 733 987 654",
+        "website": "https://www.greenleaflandscaping.co.ke",
+        "image": "greenleaf.png",
+        "membershipLevel": 1,
+        "description": "Residential and commercial landscaping services.",
+        "founded": 2015
+    },
+    {
+        "name": "Urban Bites Restaurant",
+        "address": "Kilimani, Nairobi, Kenya",
+        "phone": "+254 722 456 789",
+        "website": "https://www.urbanbites.co.ke",
+        "image": "urbanbites.png",
+        "membershipLevel": 2,
+        "description": "Modern restaurant offering local and international cuisine.",
+        "founded": 2019
+    },
+    {
+        "name": "Sunrise Hardware Mart",
+        "address": "Industrial Area, Nairobi, Kenya",
+        "phone": "+254 710 654 321",
+        "website": "https://www.sunrisehardware.co.ke",
+        "image": "sunrisehardware.png",
+        "membershipLevel": 3,
+        "description": "Building materials and tools supplier.",
+        "founded": 2008
+    },
+    {
+        "name": "BlueWave Travel Agency",
+        "address": "CBD, Nairobi, Kenya",
+        "phone": "+254 705 111 222",
+        "website": "https://www.bluewavetravel.co.ke",
+        "image": "bluewavetravel.png",
+        "membershipLevel": 1,
+        "description": "Tour and travel planning services.",
+        "founded": 2016
+    },
+    {
+        "name": "Elite Fitness Center",
+        "address": "Runda, Nairobi, Kenya",
+        "phone": "+254 799 333 444",
+        "website": "https://www.elitefitness.co.ke",
+        "image": "elitefitness.png",
+        "membershipLevel": 2,
+        "description": "Gym and personal training services.",
+        "founded": 2020
+    }
+]

@@ -1,0 +1,146 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+    color: #333333;
+    margin: 0;
+    padding: 2rem;
+}
+
+h1, h2, h3 {
+    font-family: "Merriweather", serif;
+    color: #0A1F44;
+}
+
+strong{
+    color: #C9A227;
+}
+
+#site-plan {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #F4F6F8;
+    border-radius: 5px;
+    border: 2px solid #0A1F44;
+}
+
+/*****Header*****/
+header {
+    background-color: #F4F6F8;
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 5px 0 5px 10px;
+    align-items: end;
+    border-bottom: solid 1px #ddd;
+    column-gap: 10px;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+header span {
+    font-size: 1.2rem;
+    color: #0A1F44;
+}
+
+/********Hamburger*******/
+.hamburger {
+    background: none;
+    border: none;
+    color: #0A1F44;
+    cursor: pointer;
+    font-family: Merriweather, Roboto, Tahoma, sans-serif;
+}
+
+.hamburger::before {
+    content: "\2630";
+    font-size: 1.6rem;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
+
+/********Navigation*******/
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    display: block;
+    padding: .8rem 10px;
+    color: #0A1F44;
+    text-decoration: none;
+    border-bottom: solid 1px #ddd;
+}
+
+.navigation li.current {
+    background-color: #d3d4d5;
+}
+
+.navigation a:hover {
+    background-color: #C9A227;
+}
+
+h1 {
+    margin-left: 10px;
+    color: #0A1F44;
+}
+
+/********footer*******/
+footer {
+    background-color: #F4F6F8;
+    padding: 1rem 10px;
+    text-align: center;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.socials a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+}
+
+.socials img {
+    width: 22px;
+    height: 22px;
+}
+
+.socials a:hover {
+    background-color: #ddd;
+}
+
+
+.view-buttons {
+    margin: 1rem auto;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
