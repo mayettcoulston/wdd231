@@ -39,7 +39,7 @@ function displayMembers(members) {
     });
 }
 
-/* Toggle Views */
+
 gridBtn.addEventListener("click", () => {
     membersContainer.classList.add("grid-view");
     membersContainer.classList.remove("list-view");

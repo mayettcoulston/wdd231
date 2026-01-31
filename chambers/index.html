@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,8 @@
     <meta name="description" content="Chamber of Commerce">
     <meta property="og:title" content="Facebook page of Coulston Mayett">
     <meta property="og:description" content="Explore Coulston Mayett facebook page">
-    <meta property="og:image" content="https://www.facebook.com/photo.php?fbid=2793662360912308&set=pb.100008057143030.-2207520000&type=3">
+    <meta property="og:image"
+        content="https://www.facebook.com/photo.php?fbid=2793662360912308&set=pb.100008057143030.-2207520000&type=3">
     <meta property="og:url" content="https://www.facebook.com/coulston.mayett.3">
     <meta property="og:locale" content="en_US">
     <title>Nairobi Chamber of Commerce</title>
@@ -18,9 +20,11 @@
     <link rel="stylesheet" href="styles/larger.css">
 
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
-    
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
+
 </head>
+
 <body>
     <header>
         <img src="images/bank2.svg" alt="Site logo" width="24" height="24">
@@ -28,32 +32,62 @@
         <button id="hambutton" class="hamburger"></button>
         <nav id="nav-bar" class="navigation">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li class="current"><a href="index.html">Home</a></li>
                 <li><a href="#">Discover</a></li>
-                <li class="current"><a href="directory.html">Business Directory</a></li>
+                <li><a href="directory.html">Business Directory</a></li>
                 <li><a href="#">Join</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Directory</h1>
+        <h1>Home</h1>
 
-        <h3>Member Directory</h3>
+        <section class="hero">
+            <img src="images/hero.webp" alt="Nairobi city skyline">
+            <div class="hero-content">
+                <h2>Nairobi Chamber of Commerce</h2>
+                <a href="join.html" class="cta-button">Join the Chamber</a>
+            </div>
+        </section>
+
+    <div class="home-grid">
         
-        <div class="view-buttons">
-            <button id="grid">Grid View</button>
-            <button id="list">List View</button>
-        </div>
-        <section id="members"></section>
+        <section class="events">
+            <h2>Current Events</h2>
+            <ul>
+                <li>Business Networking Breakfast : March 15</li>
+                <li>Small Business Workshop : April 3</li>
+                <li>Annual Trade Fair : May 20</li>
+            </ul>
+        </section>
+        
+        <section class="weather">
+            <h2>Weather</h2>
+            <p>
+                Current temperature: <span id="current-temp"></span>
+            </p>
+            <figure>
+                <img id="weather-icon" src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+
+            <h3>3-Day Forecast</h3>
+            <ul id="forecast"></ul>
+        </section>
+        
+        <section class="spotlights">
+            <h2>Business Spotlights</h2>
+        </section>
+    </div>
     </main>
     <footer>
         <h4>Nairobi Chamber of Commerce</h4>
         <span>Nairobi City</span>
         <div class="socials">
-            <a href="https://www.linkedin.com/in/coulston-mayett-404380157/" target="_blank"><img src="images/linkedin.svg"
-                    alt="LinkedIn" width="16" height="16"></a>
-            <a href="https://github.com/mayettcoulston" target="_blank"><img src="images/github.svg" alt="github" width="16"
-                    height="16"></a>
+            <a href="https://www.linkedin.com/in/coulston-mayett-404380157/" target="_blank"><img
+                    src="images/linkedin.svg" alt="LinkedIn" width="16" height="16"></a>
+            <a href="https://github.com/mayettcoulston" target="_blank"><img src="images/github.svg" alt="github"
+                    width="16" height="16"></a>
             <a href="https://web.whatsapp.com/" target="_blank"><img src="images/whatsapp.svg" alt="whatsApp" width="16"
                     height="16"></a>
             <a href="https://www.facebook.com/coulston.mayett.3" target="_blank"><img src="images/facebook (1).svg"
@@ -64,6 +98,7 @@
     </footer>
 
     <script src="scripts/date.js"></script>
-    
+
 </body>
+
 </html>

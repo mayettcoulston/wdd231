@@ -144,3 +144,24 @@ button {
     cursor: pointer;
 }
 
+
+.hero {
+    position: relative;
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-content {
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    text-align: center;
+    color: white;
+}
+
+
