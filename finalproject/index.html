@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Coulston Mayett">
+    <meta name="description" content="Nairobi Eatery">
+    <meta property="og:title" content="Facebook page of Coulston Mayett">
+    <meta property="og:description" content="Explore Coulston Mayett facebook page">
+    <meta property="og:image"
+        content="https://www.facebook.com/photo.php?fbid=2793662360912308&set=pb.100008057143030.-2207520000&type=3">
+    <meta property="og:url" content="https://www.facebook.com/coulston.mayett.3">
+    <meta property="og:locale" content="en_US">
+    <title>Nairobi Eatery</title>
+
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/eaterysmall.css">
+    <link rel="stylesheet" href="styles/eateryLarger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <img src="images/eatery.svg" alt="Site logo" width="24" height="24">
+        <span>Nairobi Eats</span>
+        <button id="hambutton" class="hamburger"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="eatery.html">Nairobi Eatery</a></li>
+                <li><a href="foodculture.html">Food Culture</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Home</h1>
+
+        <section class="hero">
+            <img src="images/naieatery.webp" alt="A restaurant table in Nairobi">
+            <div class="hero-content">
+                <h2>Nairobi Eats</h2>
+                <a href="join.html" class="cta-button">Join the Community</a>
+            </div>
+        </section>
+
+        <div class="home-grid">
+            <section class="welcome">
+                <h2>Nairobi bites</h2>
+                <p>From sizzling street food and traditional Kenyan dishes to modern cafés and fine dining experiences, Nairobi offers
+                something for every taste and occasion. Join us as we explore the city’s vibrant culinary scene, celebrate local chefs
+                and cultures, and uncover hidden gems that bring people together over unforgettable meals. Nairobi Eats is your guide 
+                to experiencing the heart of the city one delicious bite at a time.</p>
+            </section>
+
+            <section class="events">
+                <h2>Food Events</h2>
+                <ul>
+                    <li>Nairobi Food Expo Dinner : March 15</li>
+                    <li>Nairobi Street Food Festival : April 3</li>
+                    <li>Sweet & Spicy Artisanal Fair : May 20</li>
+                </ul>
+            </section>
+
+            <section class="weather">
+                <h2>Weather</h2>
+                <p>
+                    Current temperature: <span id="current-temp"></span>
+                </p>
+                <figure>
+                    <img id="weather-icon" src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
+
+                <h3>3-Day Forecast</h3>
+                <ul id="forecast"></ul>
+            </section>
+
+        </div>
+    </main>
+    <footer>
+        <h4>Nairobi Eats</h4>
+        <span>Nairobi City</span>
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/coulston-mayett-404380157/" target="_blank"><img
+                    src="images/linkedin.svg" alt="LinkedIn" width="16" height="16"></a>
+            <a href="https://github.com/mayettcoulston" target="_blank"><img src="images/github.svg" alt="github"
+                    width="16" height="16"></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><img src="images/whatsapp.svg" alt="whatsApp" width="16"
+                    height="16"></a>
+            <a href="https://www.facebook.com/coulston.mayett.3" target="_blank"><img src="images/facebook (1).svg"
+                    alt="facebook" width="16" height="16"></a>
+        </div>
+        <p>&copy; <span id="currentyear"></span> |Coulston Mayett | WDD231</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/date.js"></script>
+
+</body>
+
+</html>

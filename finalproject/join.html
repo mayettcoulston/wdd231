@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Coulston Mayett">
+    <meta name="description" content="Nairobi Eatery">
+    <meta property="og:title" content="Facebook page of Coulston Mayett">
+    <meta property="og:description" content="Explore Coulston Mayett facebook page">
+    <meta property="og:image"
+        content="https://www.facebook.com/photo.php?fbid=2793662360912308&set=pb.100008057143030.-2207520000&type=3">
+    <meta property="og:url" content="https://www.facebook.com/coulston.mayett.3">
+    <meta property="og:locale" content="en_US">
+    <title>Nairobi Eatery</title>
+
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/eaterysmall.css">
+    <link rel="stylesheet" href="styles/eateryLarger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <img src="images/eatery.svg" alt="Site logo" width="24" height="24">
+        <span>Nairobi Eats</span>
+        <button id="hambutton" class="hamburger"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="eatery.html">Nairobi Eatery</a></li>
+                <li><a href="foodculture.html">Food Culture</a></li>
+                <li class="current"><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Join Nairobi eats</h1>
+
+        <section class="hero">
+            <img src="images/naieatery.webp" alt="A restaurant table in Nairobi">
+            <div class="hero-content">
+                <h2>Nairobi Eats</h2>
+                <a href="join.html" class="cta-button">Join the Community</a>
+            </div>
+        </section>
+
+        <section>
+        <form method="get" action="thankyou.html" class="join-form">
+            <h2>Join Nairobi Eats Community</h2>
+        
+            <label>
+                First Name*
+                <input type="text" name="fname" title="First Name" autocomplete="given-name" required>
+            </label>
+        
+            <label>
+                Last Name*
+                <input type="text" name="lname" title="Last Name" autocomplete="family-name" required>
+            </label>
+        
+            <label>
+                Email Address*
+                <input type="email" name="email" title="Email Address" autocomplete="email" placeholder="you@example.com"
+                    required>
+            </label>
+        
+            <label>
+                Phone Number
+                <input type="tel" name="phone" title="Phone Number" autocomplete="tel">
+            </label>
+        
+            <label>
+                Are You Joining As?
+                <select name="member-type">
+                    <option value="foodie">Food Lover</option>
+                    <option value="restaurant">Restaurant Owner</option>
+                    <option value="chef">Chef / Culinary Professional</option>
+                    <option value="vendor">Food Vendor</option>
+                </select>
+            </label>
+        
+            <label>
+                Favorite Cuisine
+                <select name="cuisine">
+                    <option value="kenyan">Kenyan</option>
+                    <option value="african">African Fusion</option>
+                    <option value="italian">Italian</option>
+                    <option value="indian">Indian</option>
+                    <option value="asian">Asian</option>
+                    <option value="other">Other</option>
+                </select>
+            </label>
+        
+            <label>
+                Tell Us About Your Food Interests
+                <textarea name="description" title="Food Interests"
+                    placeholder="Share your favorite dishes, restaurant, or what excites you about Nairobi’s food scene..."></textarea>
+            </label>
+        
+            <input type="hidden" name="timestamp" id="timestamp">
+        
+            <input type="submit" value="Join Nairobi Eats">
+        </form>
+        </section>
+    </main>
+    <footer>
+        <h4>Nairobi Eats</h4>
+        <span>Nairobi City</span>
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/coulston-mayett-404380157/" target="_blank"><img
+                    src="images/linkedin.svg" alt="LinkedIn" width="16" height="16"></a>
+            <a href="https://github.com/mayettcoulston" target="_blank"><img src="images/github.svg" alt="github"
+                    width="16" height="16"></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><img src="images/whatsapp.svg" alt="whatsApp" width="16"
+                    height="16"></a>
+            <a href="https://www.facebook.com/coulston.mayett.3" target="_blank"><img src="images/facebook (1).svg"
+                    alt="facebook" width="16" height="16"></a>
+        </div>
+        <p>&copy; <span id="currentyear"></span> |Coulston Mayett | WDD231</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/date.js"></script>
+
+</body>
+
+</html>

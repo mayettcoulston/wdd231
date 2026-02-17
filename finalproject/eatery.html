@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Coulston Mayett">
+    <meta name="description" content="Nairobi Eatery">
+    <meta property="og:title" content="Facebook page of Coulston Mayett">
+    <meta property="og:description" content="Explore Coulston Mayett facebook page">
+    <meta property="og:image"
+        content="https://www.facebook.com/photo.php?fbid=2793662360912308&set=pb.100008057143030.-2207520000&type=3">
+    <meta property="og:url" content="https://www.facebook.com/coulston.mayett.3">
+    <meta property="og:locale" content="en_US">
+    <title>Nairobi Eatery</title>
+
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/eaterysmall.css">
+    <link rel="stylesheet" href="styles/eateryLarger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script type="module" src="scripts/eatery.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <img src="images/eatery.svg" alt="Site logo" width="24" height="24">
+        <span>Nairobi Eats</span>
+        <button id="hambutton" class="hamburger"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="current"><a href="eatery.html">Nairobi Eatery</a></li>
+                <li><a href="foodculture.html">Food Culture</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Nairobi Eateries</h1>
+
+        <section class="hero">
+            <img src="images/naieatery.webp" alt="A restaurant table in Nairobi">
+            <div class="hero-content">
+                <h2>Nairobi Eats</h2>
+                <a href="join.html" class="cta-button">Join the Community</a>
+            </div>
+        </section>
+
+        <div id="visit-message" class="visit-message"></div>
+
+        <section class="eatery-grid" id="cards"></section>
+
+    </main>
+    <footer>
+        <h4>Nairobi Eats</h4>
+        <span>Nairobi City</span>
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/coulston-mayett-404380157/" target="_blank"><img
+                    src="images/linkedin.svg" alt="LinkedIn" width="16" height="16"></a>
+            <a href="https://github.com/mayettcoulston" target="_blank"><img src="images/github.svg" alt="github"
+                    width="16" height="16"></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><img src="images/whatsapp.svg" alt="whatsApp" width="16"
+                    height="16"></a>
+            <a href="https://www.facebook.com/coulston.mayett.3" target="_blank"><img src="images/facebook (1).svg"
+                    alt="facebook" width="16" height="16"></a>
+        </div>
+        <p>&copy; <span id="currentyear"></span> |Coulston Mayett | WDD231</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/date.js"></script>
+
+</body>
+
+</html>
