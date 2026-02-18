@@ -15,7 +15,7 @@ export const restaurants = [
         name: "About Thyme",
         address: "Westlands, Nairobi",
         description: "Garden-style restaurant serving international dishes in a relaxed outdoor setting.",
-        image: "images/about-thyme.webp"
+        image: "images/thyme.webp"
     },
     {
         name: "Mama Oliech Restaurant",
@@ -33,7 +33,7 @@ export const restaurants = [
         name: "Zen Garden",
         address: "Lower Kabete Rd, Nairobi",
         description: "Asian fusion restaurant with beautiful gardens and fine dining experience.",
-        image: "images/zen-garden.webp"
+        image: "images/zen.webp"
     },
     {
         name: "Hero Restaurant",
