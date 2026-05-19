@@ -188,6 +188,10 @@ button {
     margin-bottom: 1rem;
 }
 
+#members.list-view img {
+    margin: 0 auto;
+}
+
 /* Hover effect (desktop only later) */
 #members.grid-view .member-card:hover {
     transform: translateY(-5px);
