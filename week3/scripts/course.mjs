@@ -35,5 +35,5 @@ const byuiCourse = {
 };
 
 
-// ✅ Export as default (last line)
+// Export as default (last line)
 export default byuiCourse;
