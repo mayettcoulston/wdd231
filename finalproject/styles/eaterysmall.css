@@ -75,10 +75,12 @@ header span {
 /********Navigation*******/
 .navigation {
     display: none;
+    width: 100%;
 }
 
 .navigation.show {
     display: block;
+    grid-column: 1 / -1;
 }
 
 .navigation ul {
@@ -87,17 +89,27 @@ header span {
     padding: 0;
 }
 
+.navigation li {
+    border-bottom: 1px solid #ddd;
+}
+
 .navigation a {
     display: block;
     padding: .8rem 10px;
     color: var(--primary-green);
     text-decoration: none;
-    border-bottom: solid 1px #ddd;
+    white-space: nowrap;
+    /**border-bottom: solid 1px #ddd;**/
 }
 
-.navigation li.current {
+.navigation li.current a {
     background-color: #d3d4d5;
+    font-weight: bold;
 }
+
+/***.navigation li.current {
+    background-color: #d3d4d5;
+}***/
 
 .navigation a:hover {
     background-color: var(--secondary-gold);
@@ -177,7 +189,7 @@ button {
     left: 75%;
     text-align: center;
     transform: translate(-50%, -50%);
-    background: rgba(46, 83, 57, 0.75);
+    background: rgba(189, 199, 192, 0.75);
     padding: 0.1rem .8rem;
     border-radius: 8px;
     color: white;
